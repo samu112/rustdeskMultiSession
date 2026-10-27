@@ -18,6 +18,8 @@ Save the ID server, relay server, API server and key as a named profile, then sw
 
 A rough command-line version also exists: `rustdesk.exe --profile list | show <name> | save <name> | use <name> | delete <name>`. It keeps its own list in `profiles.json` next to the config, which is **not shared** with the profiles in the UI.
 
+<p align="center"><img src="images/server-profiles-dialog.png" alt="Server profiles dialog" height="400"> <img src="images/server-profiles-connect.png" alt="Profile picker on the connect page" height="400"></p>
+
 ### Updates from this repo
 
 Release builds check [this repo's releases](../../releases) instead of RustDesk's. An installed copy shows a card when a newer release exists, and the **Update** button downloads, verifies and installs it, like stock RustDesk does.
